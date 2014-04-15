@@ -1,0 +1,78 @@
+2014.02.14 11:14:08,291 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:14:08,513 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:14:08,559 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:14:08,559 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:14:08,745 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:14:08,790 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:16:49,730 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:16:49,918 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:16:49,974 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:16:49,974 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:16:50,081 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:16:50,113 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:19:42,921 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:19:43,088 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:19:43,125 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:19:43,125 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:19:43,240 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:19:43,271 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:21:10,978 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:21:11,165 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:21:11,209 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:21:11,210 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:21:11,316 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:21:11,343 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:28:06,890 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:28:07,082 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:28:07,167 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:28:07,167 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:28:07,280 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:28:07,316 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:29:56,792 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:29:57,012 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:29:57,094 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:29:57,094 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:29:57,201 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:29:57,243 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:32:53,777 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:32:53,949 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:32:54,005 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:32:54,005 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:32:54,180 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:32:54,207 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:33:48,540 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:33:48,745 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:33:48,830 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:33:48,830 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:33:48,971 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:33:49,000 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:34:44,026 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:34:44,215 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:34:44,273 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:34:44,273 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:34:44,379 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:34:44,411 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:36:51,917 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:36:52,072 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:36:52,126 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:36:52,126 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:36:52,276 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:36:52,315 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:37:54,916 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:37:55,175 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:37:55,217 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:37:55,217 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:37:55,320 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:37:55,353 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 11:57:43,470 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 11:57:43,625 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 11:57:43,667 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:57:43,668 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:57:43,770 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 11:57:43,800 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.14 12:07:09,840 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.14 12:07:09,998 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.14 12:07:10,044 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 12:07:10,045 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 12:07:10,154 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.14 12:07:10,180 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING

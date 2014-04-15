@@ -1,0 +1,559 @@
+2014.02.26 09:26:40,020 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 09:26:40,247 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 09:26:40,347 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:26:40,347 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:26:40,688 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:26:40,835 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 09:26:40,979 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 09:26:40,980 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 09:26:41,280 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 09:26:42,770 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 09:26:42,812 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 09:26:42,935 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 09:26:42,977 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:26:42,978 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:26:43,083 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:26:43,111 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 09:26:43,156 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 09:26:43,157 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 09:26:43,259 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 09:26:44,141 [main] WARN  AbstractLifeCycle - FAILED SelectChannelConnector@0.0.0.0:8080 FAILED: java.net.BindException: Адрес уже используется
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:172)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:300)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:249)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:273)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at ru.georent.Launcher$delayedInit$body.apply(Launcher.scala:29)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at ru.georent.Launcher$.main(Launcher.scala:9)
+	at ru.georent.Launcher.main(Launcher.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+2014.02.26 09:26:44,143 [main] WARN  AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@2542e40c: java.net.BindException: Адрес уже используется
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:172)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:300)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:249)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:273)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at ru.georent.Launcher$delayedInit$body.apply(Launcher.scala:29)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at ru.georent.Launcher$.main(Launcher.scala:9)
+	at ru.georent.Launcher.main(Launcher.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+2014.02.26 09:31:50,651 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 09:31:50,792 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 09:31:50,832 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:31:50,832 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:31:50,924 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:31:50,952 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 09:31:50,993 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 09:31:50,993 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 09:31:51,095 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 09:31:51,818 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 09:46:18,290 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 09:46:18,427 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 09:46:18,471 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:46:18,471 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:46:18,606 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 09:46:18,639 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 09:46:18,684 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 09:46:18,684 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 09:46:18,782 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 09:46:19,626 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 14:03:34,143 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 14:03:34,321 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 14:03:34,367 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:03:34,367 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:03:34,475 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:03:34,509 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 14:03:34,571 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 14:03:34,571 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 14:03:34,681 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 14:03:35,545 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 14:29:40,455 [3f-18] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:30:09,410 [3f-19] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:30:16,558 [3f-20] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:32:13,403 [3f-29] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:32:38,790 [3f-30] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:32:44,242 [3f-31] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:32:48,441 [3f-32] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:35:48,863 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 14:35:49,040 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 14:35:49,084 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:35:49,084 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:35:49,187 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:35:49,218 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 14:35:49,284 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 14:35:49,285 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 14:35:49,398 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 14:35:50,257 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 14:36:37,970 [87-5] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:40:29,030 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 14:40:29,203 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 14:40:29,246 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:40:29,246 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:40:29,345 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:40:29,380 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 14:40:29,449 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 14:40:29,449 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 14:40:29,566 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 14:40:30,436 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 14:41:23,138 [c2-6] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 14:45:40,391 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 14:45:40,614 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 14:45:40,715 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:40,716 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:40,871 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:40,911 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 14:45:40,988 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 14:45:40,991 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 14:45:41,159 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 14:45:42,779 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 14:45:43,611 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 14:45:43,801 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 14:45:43,863 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:43,864 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:43,973 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:44,005 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 14:45:44,056 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 14:45:44,056 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 14:45:44,196 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 14:45:45,040 [main] WARN  AbstractLifeCycle - FAILED SelectChannelConnector@0.0.0.0:8080 FAILED: java.net.BindException: Адрес уже используется
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:172)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:300)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:249)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:273)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at ru.georent.Launcher$delayedInit$body.apply(Launcher.scala:29)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at ru.georent.Launcher$.main(Launcher.scala:9)
+	at ru.georent.Launcher.main(Launcher.scala)
+2014.02.26 14:45:45,042 [main] WARN  AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@617ed173: java.net.BindException: Адрес уже используется
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:172)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:300)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:249)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:273)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at ru.georent.Launcher$delayedInit$body.apply(Launcher.scala:29)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at ru.georent.Launcher$.main(Launcher.scala:9)
+	at ru.georent.Launcher.main(Launcher.scala)
+2014.02.26 14:45:56,495 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 14:45:56,654 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 14:45:56,704 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:56,704 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:56,804 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 14:45:56,834 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 14:45:56,897 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 14:45:56,898 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 14:45:57,010 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 14:45:57,874 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 14:46:24,351 [a8-5] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/photo-spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 15:49:42,887 [a8-10] WARN  WebComponent - A servlet POST request, to the URI http://localhost:8080/rest/spots, contains form parameters in the request body but the request body has been consumed by the servlet or a servlet filter accessing the request parameters. Only resource methods using @FormParam will work as expected. Resource methods consuming the request body by other means will not work as expected.
+2014.02.26 16:54:21,255 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 16:54:21,444 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 16:54:21,548 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:54:21,548 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:54:21,641 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:54:21,667 [main] INFO  / - Initializing Spring root WebApplicationContext
+2014.02.26 16:54:21,667 [main] INFO  ContextLoader - Root WebApplicationContext: initialization started
+2014.02.26 16:54:21,723 [main] INFO  XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Feb 26 16:54:21 NOVT 2014]; root of context hierarchy
+2014.02.26 16:54:21,778 [main] INFO  XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring.xml]
+2014.02.26 16:54:22,140 [main] INFO  DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3904e3f1: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2014.02.26 16:54:22,143 [main] INFO  ContextLoader - Root WebApplicationContext: initialization completed in 476 ms
+2014.02.26 16:54:22,144 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:54:22,170 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 16:54:22,195 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 16:54:22,195 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 16:54:22,311 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 16:54:23,160 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 16:54:39,076 [41-4] ERROR ContainerResponse - The RuntimeException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.NullPointerException
+	at ru.georent.web.rest.SpotResource.getAllSpots(SpotResource.scala:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:558)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+	at ru.georent.web.RequestLogFilter.doFilter(logging.scala:56)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:973)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:417)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:907)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:350)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:442)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:924)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+2014.02.26 16:54:39,080 [41-4] WARN  ServletHandler - /rest/spots
+java.lang.NullPointerException
+	at ru.georent.web.rest.SpotResource.getAllSpots(SpotResource.scala:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:558)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+	at ru.georent.web.RequestLogFilter.doFilter(logging.scala:56)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:973)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:417)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:907)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:350)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:442)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:924)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+2014.02.26 16:55:31,902 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 16:55:32,140 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 16:55:32,251 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:32,252 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:32,394 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:32,401 [main] INFO  / - Initializing Spring root WebApplicationContext
+2014.02.26 16:55:32,402 [main] INFO  ContextLoader - Root WebApplicationContext: initialization started
+2014.02.26 16:55:32,456 [main] INFO  XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Feb 26 16:55:32 NOVT 2014]; root of context hierarchy
+2014.02.26 16:55:32,523 [main] INFO  XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring.xml]
+2014.02.26 16:55:33,001 [main] INFO  DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2db8b352: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2014.02.26 16:55:33,006 [main] INFO  ContextLoader - Root WebApplicationContext: initialization completed in 604 ms
+2014.02.26 16:55:33,006 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:33,062 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 16:55:33,116 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 16:55:33,116 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 16:55:33,381 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 16:55:34,786 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 16:55:34,973 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 16:55:35,146 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 16:55:35,225 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:35,225 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:35,315 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:35,319 [main] INFO  / - Initializing Spring root WebApplicationContext
+2014.02.26 16:55:35,319 [main] INFO  ContextLoader - Root WebApplicationContext: initialization started
+2014.02.26 16:55:35,359 [main] INFO  XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Feb 26 16:55:35 NOVT 2014]; root of context hierarchy
+2014.02.26 16:55:35,416 [main] INFO  XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring.xml]
+2014.02.26 16:55:35,698 [main] INFO  DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@a36f7c0: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2014.02.26 16:55:35,700 [main] INFO  ContextLoader - Root WebApplicationContext: initialization completed in 381 ms
+2014.02.26 16:55:35,701 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:35,727 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 16:55:35,753 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 16:55:35,753 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 16:55:35,864 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 16:55:36,688 [main] WARN  AbstractLifeCycle - FAILED SelectChannelConnector@0.0.0.0:8080 FAILED: java.net.BindException: Адрес уже используется
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:172)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:300)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:249)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:273)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at ru.georent.Launcher$delayedInit$body.apply(Launcher.scala:29)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at ru.georent.Launcher$.main(Launcher.scala:9)
+	at ru.georent.Launcher.main(Launcher.scala)
+2014.02.26 16:55:36,691 [main] WARN  AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@30c18f44: java.net.BindException: Адрес уже используется
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:172)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:300)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:249)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:273)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at ru.georent.Launcher$delayedInit$body.apply(Launcher.scala:29)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at ru.georent.Launcher$.main(Launcher.scala:9)
+	at ru.georent.Launcher.main(Launcher.scala)
+2014.02.26 16:55:51,921 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 16:55:52,100 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 16:55:52,178 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:52,178 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:52,266 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:52,270 [main] INFO  / - Initializing Spring root WebApplicationContext
+2014.02.26 16:55:52,270 [main] INFO  ContextLoader - Root WebApplicationContext: initialization started
+2014.02.26 16:55:52,306 [main] INFO  XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Feb 26 16:55:52 NOVT 2014]; root of context hierarchy
+2014.02.26 16:55:52,364 [main] INFO  XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring.xml]
+2014.02.26 16:55:52,681 [main] INFO  DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38797817: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2014.02.26 16:55:52,684 [main] INFO  ContextLoader - Root WebApplicationContext: initialization completed in 413 ms
+2014.02.26 16:55:52,684 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:55:52,711 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 16:55:52,736 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 16:55:52,736 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 16:55:52,846 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 16:55:53,737 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.26 16:56:26,750 [48-4] ERROR ContainerResponse - The RuntimeException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.NullPointerException
+	at ru.georent.web.rest.SpotResource.getAllSpots(SpotResource.scala:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:558)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+	at ru.georent.web.RequestLogFilter.doFilter(logging.scala:56)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:973)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:417)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:907)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:350)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:442)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:924)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+2014.02.26 16:56:26,754 [48-4] WARN  ServletHandler - /rest/spots
+java.lang.NullPointerException
+	at ru.georent.web.rest.SpotResource.getAllSpots(SpotResource.scala:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:558)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+	at ru.georent.web.RequestLogFilter.doFilter(logging.scala:56)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:973)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:417)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:907)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:350)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:442)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:924)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+2014.02.26 16:57:49,046 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.26 16:57:49,195 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.26 16:57:49,280 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:57:49,281 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:57:49,366 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:57:49,370 [main] INFO  / - Initializing Spring root WebApplicationContext
+2014.02.26 16:57:49,370 [main] INFO  ContextLoader - Root WebApplicationContext: initialization started
+2014.02.26 16:57:49,407 [main] INFO  XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Feb 26 16:57:49 NOVT 2014]; root of context hierarchy
+2014.02.26 16:57:49,465 [main] INFO  XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring.xml]
+2014.02.26 16:57:49,774 [main] INFO  DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@709d70b4: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,spotService]; root of factory hierarchy
+2014.02.26 16:57:49,785 [main] INFO  ContextLoader - Root WebApplicationContext: initialization completed in 415 ms
+2014.02.26 16:57:49,785 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.26 16:57:49,815 [main] INFO  PackagesResourceConfig - Scanning for root resource and provider classes in the packages:
+  ru.georent.web.rest
+2014.02.26 16:57:49,841 [main] INFO  ScanningResourceConfig - Root resource classes found:
+  class ru.georent.web.rest.SpotResource
+2014.02.26 16:57:49,841 [main] INFO  ScanningResourceConfig - No provider classes found.
+2014.02.26 16:57:49,952 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+2014.02.26 16:57:50,814 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING

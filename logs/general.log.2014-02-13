@@ -1,0 +1,81 @@
+2014.02.13 16:42:35,656 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.13 16:42:35,864 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.13 16:42:35,909 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:42:35,909 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:42:36,011 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:42:36,038 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.13 16:45:52,050 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.13 16:45:52,248 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.13 16:45:52,335 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:45:52,335 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:45:52,487 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:45:52,521 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.13 16:45:54,330 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.13 16:45:54,492 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.13 16:45:54,531 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:45:54,531 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:45:54,665 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:45:54,695 [main] WARN  AbstractLifeCycle - FAILED SelectChannelConnector@0.0.0.0:8080 FAILED: java.net.BindException: Адрес уже используется
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:172)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:300)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:249)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:273)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at ru.georent.Launcher$delayedInit$body.apply(Launcher.scala:29)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at ru.georent.Launcher$.main(Launcher.scala:9)
+	at ru.georent.Launcher.main(Launcher.scala)
+2014.02.13 16:45:54,699 [main] WARN  AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@5380e426: java.net.BindException: Адрес уже используется
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:172)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:300)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:249)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:273)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at ru.georent.Launcher$delayedInit$body.apply(Launcher.scala:29)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at ru.georent.Launcher$.main(Launcher.scala:9)
+	at ru.georent.Launcher.main(Launcher.scala)
+2014.02.13 16:46:05,428 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.13 16:46:05,582 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.13 16:46:05,631 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:46:05,631 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:46:05,781 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:46:05,814 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.13 16:50:59,028 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.13 16:50:59,191 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.13 16:50:59,247 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:50:59,247 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:50:59,418 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:50:59,449 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+2014.02.13 16:54:54,356 [main] INFO  Server - jetty-8.0.4.v20111024
+2014.02.13 16:54:54,504 [main] INFO  StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014.02.13 16:54:54,555 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:54:54,555 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:54:54,729 [main] INFO  ContextHandler - started o.e.j.w.WebAppContext{/,file:/home/goddenis/Workspace/scala-geo-rent/webapp/},webapp
+2014.02.13 16:54:54,755 [main] INFO  AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080 STARTING

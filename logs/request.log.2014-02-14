@@ -1,0 +1,78 @@
+2014.02.14 11:36:57,864 [39-1] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:36:59,528 [39-2] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:37:00,113 [39-3] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:37:00,593 [39-4] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:37:00,828 [39-5] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:37:01,042 [39-6] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:37:01,227 [39-7] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:38:25,729 [f9-1] 
+java.lang.UnsupportedOperationException: empty.reduceLeft
+	at scala.collection.LinearSeqOptimized$class.reduceLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.reduceLeft(List.scala:84)
+	at scala.collection.TraversableOnce$class.reduce(TraversableOnce.scala:195)
+	at scala.collection.AbstractTraversable.reduce(Traversable.scala:105)
+	at ru.georent.web.RequestLogFilter.serealizeParams$1(logging.scala:49)
+	at ru.georent.web.RequestLogFilter.doFilter(logging.scala:70)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:973)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:417)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:907)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:350)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:442)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:924)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+2014.02.14 11:58:12,332 [b6-1] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:58:13,541 [b6-2] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:58:27,406 [b6-3] 127.0.0.1 GET /
+no params
+2014.02.14 11:58:28,390 [b6-4] 127.0.0.1 GET /
+no params
+2014.02.14 11:58:29,319 [b6-5] 127.0.0.1 GET /
+no params
+2014.02.14 11:59:41,810 [b6-6] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 11:59:42,698 [b6-7] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testparamw} 
+2014.02.14 12:03:34,461 [b6-8] 127.0.0.1 GET /
+param1 = {1,2} 
+param2 = {testpara} 
+2014.02.14 12:09:44,802 [96-1] 127.0.0.1 GET /
+no params
+2014.02.14 13:53:58,424 [96-2] 192.168.33.44 GET /
+no params
+2014.02.14 16:08:49,370 [96-3] 192.168.33.44 GET /
+no params

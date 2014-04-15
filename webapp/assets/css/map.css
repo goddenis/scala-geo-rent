@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#map {
+    background-color: #EEEEEE;
+}
+
+html, body, #container, #content, #map {
+    height: 100%;
+}
+
+#spa {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    bottom: 8px;
+    right: 8px;
+    border-radius: 8px 8px 0 8px;
+    background-color: #fff;
+}
+
+.spa-slider {
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+    width: 300px;
+    height: 16px;
+    cursor: pointer;
+    border-radius: 8px 0 0 0;
+    background-color: #f00;
+}

@@ -1,0 +1,36 @@
+2014.02.13 16:51:13,573 [39-1] 
+java.lang.UnsupportedOperationException: empty.reduceLeft
+	at scala.collection.LinearSeqOptimized$class.reduceLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.reduceLeft(List.scala:84)
+	at scala.collection.TraversableOnce$class.reduce(TraversableOnce.scala:195)
+	at scala.collection.AbstractTraversable.reduce(Traversable.scala:105)
+	at ru.georent.web.RequestLogFilter.serealizeParams$1(logging.scala:47)
+	at ru.georent.web.RequestLogFilter.doFilter(logging.scala:54)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:973)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:417)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:907)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:350)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:442)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:924)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+2014.02.13 16:55:10,040 [25-1] 127.0.0.1 GET / 
+2014.02.13 16:55:12,231 [25-2] 127.0.0.1 GET / 
+2014.02.13 16:55:13,352 [25-3] 127.0.0.1 GET / 
+2014.02.13 16:55:14,152 [25-4] 127.0.0.1 GET / 
+2014.02.13 16:55:15,104 [25-5] 127.0.0.1 GET / 
+2014.02.13 16:55:28,834 [25-6] 127.0.0.1 GET / param1={1}

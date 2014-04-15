@@ -1,0 +1,577 @@
+2014.02.26 09:27:27,188 [6e-1] 127.0.0.1 GET /
+no params
+2014.02.26 09:27:27,259 [6e-2] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:27:27,261 [6e-3] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:27:28,458 [6e-4] 127.0.0.1 GET /favicon.ico
+no params
+2014.02.26 09:27:28,463 [6e-5] 127.0.0.1 GET /favicon.ico
+no params
+2014.02.26 09:32:01,910 [e9-1] 127.0.0.1 GET /
+no params
+2014.02.26 09:32:03,365 [e9-2] 127.0.0.1 GET /
+no params
+2014.02.26 09:32:03,413 [e9-3] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:32:03,414 [e9-4] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:32:06,687 [e9-5] 127.0.0.1 GET /
+no params
+2014.02.26 09:32:07,027 [e9-6] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:32:07,028 [e9-7] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:37:49,652 [e9-8] 127.0.0.1 GET /
+no params
+2014.02.26 09:37:49,738 [e9-9] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:37:49,741 [e9-10] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:37:51,307 [e9-11] 127.0.0.1 GET /
+no params
+2014.02.26 09:37:51,666 [e9-12] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:37:51,667 [e9-13] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:38:08,645 [e9-14] 127.0.0.1 GET /
+no params
+2014.02.26 09:38:08,732 [e9-15] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:38:08,732 [e9-16] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:47:39,291 [2-1] 127.0.0.1 GET /
+no params
+2014.02.26 09:47:39,712 [2-2] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:47:39,712 [2-3] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:48:17,813 [2-4] 127.0.0.1 GET /
+no params
+2014.02.26 09:48:17,913 [2-5] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:48:17,913 [2-6] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:51:26,311 [2-7] 127.0.0.1 GET /
+no params
+2014.02.26 09:51:26,427 [2-8] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:51:26,428 [2-9] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:52:19,759 [2-10] 127.0.0.1 GET /
+no params
+2014.02.26 09:52:19,915 [2-11] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:52:19,916 [2-12] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:54:22,720 [2-13] 127.0.0.1 GET /
+no params
+2014.02.26 09:54:22,834 [2-14] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:54:22,871 [2-15] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:54:23,943 [2-16] 127.0.0.1 GET /favicon.ico
+no params
+2014.02.26 09:55:53,302 [2-17] 127.0.0.1 GET /
+no params
+2014.02.26 09:55:53,744 [2-18] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:55:53,750 [2-19] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:57:45,858 [2-20] 127.0.0.1 GET /
+no params
+2014.02.26 09:57:46,231 [2-21] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:57:46,236 [2-22] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:58:19,362 [2-23] 127.0.0.1 GET /
+no params
+2014.02.26 09:58:19,696 [2-24] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:58:19,703 [2-25] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 09:59:52,323 [2-26] 127.0.0.1 GET /
+no params
+2014.02.26 09:59:52,590 [2-27] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 09:59:52,599 [2-28] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:06:55,434 [2-29] 127.0.0.1 GET /
+no params
+2014.02.26 10:06:55,719 [2-30] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:06:55,724 [2-31] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:08:29,577 [2-32] 127.0.0.1 GET /
+no params
+2014.02.26 10:08:29,935 [2-33] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:08:29,941 [2-34] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:09:19,685 [2-35] 127.0.0.1 GET /
+no params
+2014.02.26 10:09:20,091 [2-36] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:09:20,094 [2-37] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:18:00,187 [2-38] 127.0.0.1 GET /
+no params
+2014.02.26 10:18:00,532 [2-39] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:18:00,689 [2-40] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:18:46,618 [2-41] 127.0.0.1 GET /
+no params
+2014.02.26 10:18:46,974 [2-42] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:18:46,975 [2-43] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:20:02,618 [2-44] 127.0.0.1 GET /
+no params
+2014.02.26 10:20:03,020 [2-45] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:20:03,023 [2-46] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:21:54,613 [2-47] 127.0.0.1 GET /
+no params
+2014.02.26 10:21:54,883 [2-48] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:21:54,890 [2-49] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:23:35,830 [2-50] 127.0.0.1 GET /
+no params
+2014.02.26 10:23:36,137 [2-51] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:23:36,141 [2-52] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:26:28,466 [2-53] 127.0.0.1 GET /
+no params
+2014.02.26 10:26:28,739 [2-54] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:26:28,744 [2-55] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:27:48,445 [2-56] 127.0.0.1 GET /
+no params
+2014.02.26 10:27:48,815 [2-57] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:27:48,819 [2-58] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:35:25,112 [2-59] 127.0.0.1 GET /
+no params
+2014.02.26 10:35:25,482 [2-60] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:35:25,489 [2-61] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:38:55,466 [2-62] 127.0.0.1 GET /
+no params
+2014.02.26 10:38:55,829 [2-63] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:38:55,830 [2-64] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:41:10,147 [2-65] 127.0.0.1 GET /
+no params
+2014.02.26 10:41:10,495 [2-66] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:41:10,500 [2-67] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:41:57,074 [2-68] 127.0.0.1 GET /
+no params
+2014.02.26 10:41:57,463 [2-69] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:41:57,464 [2-70] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:44:44,167 [2-71] 127.0.0.1 GET /
+no params
+2014.02.26 10:44:44,465 [2-72] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:44:44,470 [2-73] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:45:57,155 [2-74] 127.0.0.1 GET /
+no params
+2014.02.26 10:45:57,426 [2-75] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:45:57,437 [2-76] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:47:02,812 [2-77] 127.0.0.1 GET /
+no params
+2014.02.26 10:47:03,089 [2-78] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:47:03,093 [2-79] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:48:53,264 [2-80] 127.0.0.1 GET /
+no params
+2014.02.26 10:48:53,607 [2-81] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:48:53,613 [2-82] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:49:59,173 [2-83] 127.0.0.1 GET /
+no params
+2014.02.26 10:49:59,538 [2-84] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:49:59,543 [2-85] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:50:04,812 [2-86] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 10:51:13,907 [2-87] 127.0.0.1 GET /
+no params
+2014.02.26 10:51:14,263 [2-88] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:51:14,269 [2-89] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:51:47,471 [2-90] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 10:52:15,769 [2-91] 127.0.0.1 GET /
+no params
+2014.02.26 10:52:16,162 [2-92] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:52:16,163 [2-93] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:52:16,683 [2-94] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 10:53:45,390 [2-95] 127.0.0.1 GET /
+no params
+2014.02.26 10:53:45,765 [2-96] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:53:45,767 [2-97] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:54:44,805 [2-98] 127.0.0.1 GET /
+no params
+2014.02.26 10:54:45,078 [2-99] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:54:45,087 [2-100] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:54:45,546 [2-101] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 10:55:06,274 [2-102] 127.0.0.1 GET /
+no params
+2014.02.26 10:55:06,582 [2-103] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:55:06,589 [2-104] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:55:26,573 [2-105] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 10:56:26,937 [2-106] 127.0.0.1 GET /
+no params
+2014.02.26 10:56:27,199 [2-107] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:56:27,208 [2-108] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:57:16,258 [2-109] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 10:57:44,159 [2-110] 127.0.0.1 GET /
+no params
+2014.02.26 10:57:44,312 [2-111] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:57:44,313 [2-112] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:57:44,835 [2-113] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 10:59:12,804 [2-114] 127.0.0.1 GET /
+no params
+2014.02.26 10:59:13,190 [2-115] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 10:59:13,198 [2-116] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 10:59:13,671 [2-117] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:00:14,797 [2-118] 127.0.0.1 GET /
+no params
+2014.02.26 11:00:15,159 [2-119] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:00:15,162 [2-120] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:01:31,709 [2-121] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:03:16,710 [2-122] 127.0.0.1 GET /
+no params
+2014.02.26 11:03:17,035 [2-123] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:03:17,036 [2-124] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:03:17,529 [2-125] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:07:23,608 [2-126] 127.0.0.1 GET /
+no params
+2014.02.26 11:07:24,246 [2-127] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:07:24,247 [2-128] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:23:02,640 [2-129] 127.0.0.1 GET /
+no params
+2014.02.26 11:23:02,823 [2-130] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:23:02,827 [2-131] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:24:07,931 [2-132] 127.0.0.1 GET /
+no params
+2014.02.26 11:24:08,126 [2-133] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:24:08,126 [2-134] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:25:40,059 [2-135] 127.0.0.1 GET /
+no params
+2014.02.26 11:25:40,221 [2-136] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:25:40,221 [2-137] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:26:46,635 [2-138] 127.0.0.1 GET /
+no params
+2014.02.26 11:26:46,814 [2-139] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:26:46,814 [2-140] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:28:54,453 [2-141] 127.0.0.1 GET /
+no params
+2014.02.26 11:28:54,644 [2-142] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:28:54,647 [2-143] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:29:55,422 [2-144] 127.0.0.1 GET /
+no params
+2014.02.26 11:29:55,608 [2-145] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:29:55,608 [2-146] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:30:37,558 [2-147] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:31:13,489 [2-148] 127.0.0.1 GET /
+no params
+2014.02.26 11:31:13,678 [2-149] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:31:13,679 [2-150] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:31:19,120 [2-151] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:31:44,984 [2-152] 127.0.0.1 GET /
+no params
+2014.02.26 11:31:45,039 [2-153] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:31:45,040 [2-154] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:31:50,415 [2-155] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:32:15,960 [2-156] 127.0.0.1 GET /
+no params
+2014.02.26 11:32:16,032 [2-157] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:32:16,034 [2-158] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:32:17,458 [2-159] 127.0.0.1 GET /
+no params
+2014.02.26 11:32:17,475 [2-160] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:32:17,475 [2-161] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:32:19,121 [2-162] 127.0.0.1 GET /
+no params
+2014.02.26 11:32:19,131 [2-163] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:32:19,132 [2-164] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:32:24,483 [2-165] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:45:36,291 [2-166] 127.0.0.1 GET /
+no params
+2014.02.26 11:45:36,451 [2-167] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:45:36,452 [2-168] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:45:37,244 [2-169] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:46:26,273 [2-170] 127.0.0.1 GET /
+no params
+2014.02.26 11:46:26,414 [2-171] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:46:26,416 [2-172] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:46:31,802 [2-173] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:48:55,859 [2-174] 127.0.0.1 GET /
+no params
+2014.02.26 11:49:04,010 [2-175] 127.0.0.1 GET /
+no params
+2014.02.26 11:49:04,060 [2-176] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:49:04,061 [2-177] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 11:49:09,558 [2-178] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 11:50:36,165 [2-179] 127.0.0.1 GET /
+no params
+2014.02.26 11:50:36,248 [2-180] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 11:50:37,088 [2-181] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:03:53,453 [3f-1] 127.0.0.1 GET /
+no params
+2014.02.26 14:03:53,525 [3f-2] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:03:53,526 [3f-3] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:03:59,375 [3f-4] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:04:06,205 [3f-5] 127.0.0.1 GET /
+no params
+2014.02.26 14:04:06,317 [3f-6] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:04:06,318 [3f-7] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:04:07,408 [3f-8] 127.0.0.1 GET /favicon.ico
+no params
+2014.02.26 14:04:12,098 [3f-9] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:21:26,135 [3f-10] 127.0.0.1 GET /
+no params
+2014.02.26 14:21:26,244 [3f-11] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:21:26,245 [3f-12] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:21:31,730 [3f-13] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:29:06,043 [3f-14] 127.0.0.1 GET /
+no params
+2014.02.26 14:29:06,182 [3f-15] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:29:06,183 [3f-16] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:29:11,681 [3f-17] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:29:40,454 [3f-18] 127.0.0.1 POST /rest/photo-spots
+lon = {6.0809326171875} 
+lat = {5.2386573862015995} 
+description = {dedede} 
+name = {sede} 
+2014.02.26 14:30:09,409 [3f-19] 127.0.0.1 POST /rest/photo-spots
+lon = {-4.7900390625} 
+lat = {8.51583556120223} 
+description = {www} 
+name = {www} 
+2014.02.26 14:30:16,557 [3f-20] 127.0.0.1 POST /rest/photo-spots
+lon = {-4.7900390625} 
+lat = {8.51583556120223} 
+description = {www} 
+name = {www} 
+2014.02.26 14:31:35,384 [3f-21] 127.0.0.1 GET /
+no params
+2014.02.26 14:31:56,484 [3f-22] 127.0.0.1 GET /
+no params
+2014.02.26 14:31:56,537 [3f-23] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:31:56,541 [3f-24] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:31:57,652 [3f-25] 127.0.0.1 GET /
+no params
+2014.02.26 14:31:57,666 [3f-26] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:31:57,667 [3f-27] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:32:03,024 [3f-28] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:32:13,402 [3f-29] 127.0.0.1 POST /rest/photo-spots
+lon = {2.146453857421875} 
+lat = {1.8042061519566792} 
+description = {dddd} 
+name = {ddd} 
+2014.02.26 14:32:38,789 [3f-30] 127.0.0.1 POST /rest/photo-spots
+lon = {2.146453857421875} 
+lat = {1.8042061519566792} 
+description = {dddd} 
+name = {ddd} 
+2014.02.26 14:32:44,241 [3f-31] 127.0.0.1 POST /rest/photo-spots
+lon = {2.146453857421875} 
+lat = {1.8042061519566792} 
+description = {dddd} 
+name = {ddd} 
+2014.02.26 14:32:48,440 [3f-32] 127.0.0.1 POST /rest/photo-spots
+lon = {2.146453857421875} 
+lat = {1.8042061519566792} 
+description = {dddd} 
+name = {ddd} 
+2014.02.26 14:36:23,279 [87-1] 127.0.0.1 GET /
+no params
+2014.02.26 14:36:23,370 [87-2] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:36:23,370 [87-3] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:36:30,307 [87-4] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:36:37,968 [87-5] 127.0.0.1 POST /rest/photo-spots
+lon = {0.14556884765625} 
+lat = {0.24993817215386427} 
+description = {sss} 
+name = {ddd} 
+2014.02.26 14:41:03,654 [c2-1] 127.0.0.1 GET /
+no params
+2014.02.26 14:41:09,330 [c2-2] 127.0.0.1 GET /
+no params
+2014.02.26 14:41:09,397 [c2-3] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:41:09,398 [c2-4] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:41:14,882 [c2-5] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:41:23,137 [c2-6] 127.0.0.1 POST /rest/photo-spots
+lon = {0.296630859375} 
+lat = {0.43395581191069055} 
+description = {sdsdsd} 
+name = {cssd} 
+2014.02.26 14:46:13,027 [a8-1] 127.0.0.1 GET /
+no params
+2014.02.26 14:46:13,160 [a8-2] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 14:46:13,162 [a8-3] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 14:46:18,968 [a8-4] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 14:46:24,350 [a8-5] 127.0.0.1 POST /rest/photo-spots
+lon = {0.26092529296875} 
+lat = {0.208739772610497} 
+description = {rfrf} 
+name = {ref} 
+2014.02.26 15:49:27,325 [a8-6] 127.0.0.1 GET /
+no params
+2014.02.26 15:49:27,710 [a8-7] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 15:49:27,712 [a8-8] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 15:49:33,410 [a8-9] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 15:49:42,886 [a8-10] 127.0.0.1 POST /rest/spots
+lon = {-0.1318359375} 
+lat = {0.5493079911125155} 
+description = {sss} 
+name = {sss} 
+2014.02.26 15:50:05,905 [a8-11] 127.0.0.1 GET /
+no params
+2014.02.26 15:50:05,929 [a8-12] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 15:50:05,930 [a8-13] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 15:50:11,321 [a8-14] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 16:54:33,551 [41-1] 127.0.0.1 GET /
+no params
+2014.02.26 16:54:33,663 [41-2] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 16:54:33,665 [41-3] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 16:54:39,054 [41-4] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 16:56:20,922 [48-1] 127.0.0.1 GET /
+no params
+2014.02.26 16:56:21,469 [48-2] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 16:56:21,471 [48-3] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 16:56:26,728 [48-4] 127.0.0.1 GET /rest/spots
+no params
+2014.02.26 16:58:20,339 [78-1] 127.0.0.1 GET /
+no params
+2014.02.26 16:58:22,894 [78-2] 127.0.0.1 GET /
+no params
+2014.02.26 16:58:22,916 [78-3] 127.0.0.1 GET /assets/js/common.js
+no params
+2014.02.26 16:58:22,919 [78-4] 127.0.0.1 GET /assets/css/map.css
+no params
+2014.02.26 16:58:28,299 [78-5] 127.0.0.1 GET /rest/spots
+no params
